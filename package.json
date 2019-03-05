@@ -1,0 +1,28 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "description": "less预编译  静态代码检查",
+  "main": "rectangle.js",
+  "dependencies": {
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-htmlhint": "^0.9.13"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-eslint": "^21.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangxinyu5663/grunt-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangxinyu5663/grunt-demo/issues"
+  },
+  "homepage": "https://github.com/zhangxinyu5663/grunt-demo#readme"
+}
