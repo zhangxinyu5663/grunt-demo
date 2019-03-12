@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
+/*主程序*/
 const add=require('./sum');
 
 var x=process.argv[2] || 1,
