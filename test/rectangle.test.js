@@ -4,7 +4,6 @@ describe('矩形计算器接口测试套件',function(){
   it('正确矩形参数',function(){
     const http=require('http');
 
-    var city = process.argv[2] || '石家庄';
     var addr='http://localhost:8080/rectangle?width=20&height=20';
 
     http.get(global.encodeURI(addr), (res) => {
